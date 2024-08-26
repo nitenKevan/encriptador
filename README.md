@@ -1,4 +1,4 @@
-<h1 align="center"> Encriptador Alura </h1>
+<h1 align="center"> Encriptador</h1>
 
 Encriptador responsivo para el challenge Alura, utilizando HTML, JS Y CSS.
 
