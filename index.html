@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/estilo.css">
+    <link rel="shortcut icon" href="./assets/sam.png" />
+    <title>CyberCript</title>
+</head>
+<body>
+    <header>
+        <div class="di__header">
+            <img class="logo" src="./assets/sam.png" alt="Imagen logo">
+        </div>
+    </header>
+    <main>
+       <div class="secciones">
+            <div class="seccion__encriptar">
+                <textarea id="textoEncriptar" class="texto__encriptador" placeholder="Ingresa texto aqui"></textarea> 
+                <div class="seccion__izquierda__encriptador">
+                    <img src="./assets/aviso.png" alt="Imagen de solo miniaturas y sin acentos"> 
+                    <span class="msj__solo">Solo letras minusculas y sin acentos</span>
+                    <div class="botones__encri__descrip">
+                        <button id="botonEncriptar" class="boton__encriptar">Encriptar</button>
+                        <button id="botonDesencriptar" class="boton__desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="seccionesId" class="seccion__desencriptar">
+                <img id="munecoImg" class="muneco__img" src="./assets/ara.png" alt="Imagen de mono buscando">
+                <textarea readonly id="mensajeFinal" class="mensaje__final" placeholder="-NO DATA-"></textarea>
+                <p id="pDerecho" class="p__derecho">Ingresa el texto que deseas encriptar o Desencriptar</p>
+                <button id="botonCopiar" class="boton__copiar">Copiar</button>
+            </div>
+       </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
